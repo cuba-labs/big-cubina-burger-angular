@@ -1,5 +1,7 @@
 # BigCubinaBurger
 
+Find CUBA back-end application at https://github.com/cuba-labs/big-cubina-burger-back-end
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.4.
 
 ## Development server
