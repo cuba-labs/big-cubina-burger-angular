@@ -1,0 +1,8 @@
+.burger-image {
+  max-width: 100%;
+  height: 200px;
+}
+
+.burger-input {
+  display: inline-block;
+}

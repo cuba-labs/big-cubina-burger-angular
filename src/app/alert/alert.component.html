@@ -1,0 +1,6 @@
+<div class="container-fluid">
+  <div *ngIf="message" class="col-md-4 col-md-offset-4"
+       [ngClass]="{ 'alert': message, 'alert-success': message.type === 'success', 'alert-danger': message.type === 'error' }">
+    {{message.text}}
+  </div>
+</div>

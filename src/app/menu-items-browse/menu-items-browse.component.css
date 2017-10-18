@@ -1,0 +1,25 @@
+.buttons-panel {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+.menu-table > tbody > tr > td {
+  line-height: 2.3;
+}
+
+.panel > .buttons-panel {
+  padding-left: 0;
+}
+
+.td-actions {
+  width: 1%;
+  white-space: nowrap;
+}
+
+.burger-image {
+  height: auto;
+  width: auto;
+  max-width: 32px;
+  max-height: 32px;
+}

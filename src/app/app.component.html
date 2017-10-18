@@ -1,0 +1,33 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed"
+              data-toggle="collapse" data-target="#app-navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">BIG CUBINA BURGER</a>
+    </div>
+    <div id="app-navbar-collapse" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <button *ngIf="userInfo" type="button" class="btn btn-link navbar-btn" (click)="showOrders()">Orders</button>
+        </li>
+        <li *ngIf="userInfo">
+          <p class="navbar-text user-text">{{userInfo._instanceName}}</p>
+        </li>
+        <li>
+          <button *ngIf="!userInfo" type="button" class="btn btn-link navbar-btn" (click)="login()">Login</button>
+          <button *ngIf="userInfo" type="button" class="btn btn-link navbar-btn" (click)="logout()">Logout</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <app-alert></app-alert>
+  <router-outlet></router-outlet>
+</div>
