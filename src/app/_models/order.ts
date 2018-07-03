@@ -1,5 +1,5 @@
 import { OrderItem } from './order-item';
-import { UserInfo } from 'cuba-rest-js/dist-node/model';
+import { UserInfo } from '@cuba-platform/rest';
 
 export declare type OrderStatus = 'COOKING' | 'DELIVERING' | 'FINISHED' | 'CANCELED';
 

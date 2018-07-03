@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthenticationService } from './_services/authentication.service';
-import { UserInfo } from 'cuba-rest-js/dist-node/model';
+import { UserInfo } from '@cuba-platform/rest';
 import { UserService } from './_services/user.service';
 
 @Component({

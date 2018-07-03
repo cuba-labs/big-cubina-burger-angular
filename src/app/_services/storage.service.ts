@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { UserInfo } from 'cuba-rest-js/dist-node/model';
+import { UserInfo } from '@cuba-platform/rest';
 import { OrderItem } from '../_models/order-item';
 
 @Injectable()

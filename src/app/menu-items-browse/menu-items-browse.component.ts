@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MenuItem } from '../_models/menu-item';
 import { MenuItemsService } from '../_services/menu-items.service';
 import { Router } from '@angular/router';
-import { UserInfo } from 'cuba-rest-js/dist-node/model';
+import { UserInfo } from '@cuba-platform/rest';
 import { UserService } from '../_services/user.service';
 import { OrderItem } from '../_models/order-item';
 import { OrderService } from '../_services/order.service';

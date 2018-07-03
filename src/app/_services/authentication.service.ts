@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { AlertService } from './alert.service';
-import { CubaApp } from 'cuba-rest-js/dist-node/cuba';
+import { CubaApp } from '@cuba-platform/rest';
 import { CubaIntegrationService } from './cuba-integration.service';
 import { UserService } from './user.service';
 

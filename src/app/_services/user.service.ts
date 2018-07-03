@@ -1,10 +1,9 @@
 import { Injectable } from '@angular/core';
-import { UserInfo } from 'cuba-rest-js/dist-node/model';
+import { UserInfo, CubaApp } from '@cuba-platform/rest';
 import { Observable } from 'rxjs/Observable';
 import { Subject } from 'rxjs/Subject';
 import { CubaIntegrationService } from './cuba-integration.service';
 import { AlertService } from './alert.service';
-import { CubaApp } from 'cuba-rest-js/dist-node/cuba';
 import { StorageService } from './storage.service';
 
 @Injectable()

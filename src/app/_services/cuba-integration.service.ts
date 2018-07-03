@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
-import { CubaApp } from 'cuba-rest-js/dist-node/cuba';
+import { initializeApp, CubaApp } from '@cuba-platform/rest';
 
-import * as cuba from 'cuba-rest-js';
 import { StorageService } from './storage.service';
 
 @Injectable()
@@ -14,7 +13,7 @@ export class CubaIntegrationService {
 
   getCubaApp(): CubaApp {
     if (this.cubaApp == null) {
-      this.cubaApp = cuba.initializeApp({
+      this.cubaApp = initializeApp({
         name: 'big-cubina-burger',
         apiUrl: 'http://localhost:8080/app/rest/',
         storage: this.storageService.getStorage()
